@@ -1,3 +1,14 @@
+'use strict';
+
+const sub = substract(5,1);
+const substract = function (num1,num2){
+    return num1-num2;
+}
+const add = addition(10,12);
+function addition(num1,num2)
+{
+    return num1+num2;
+}
 let js = 'hello'
 
 if (js === 'hello') {
